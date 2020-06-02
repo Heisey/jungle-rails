@@ -20,6 +20,8 @@ class Admin::CategoriesController < ApplicationController
   def show
   end
 
+  private
+
   def categrory_params
     params.require(:category).permit(:name)
   end

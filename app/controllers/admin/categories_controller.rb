@@ -17,9 +17,6 @@ class Admin::CategoriesController < ApplicationController
     @category = Category.new
   end
 
-  def show
-  end
-
   private
 
   def categrory_params
